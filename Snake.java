@@ -97,27 +97,27 @@ public class Snake extends JPanel {
 		}
 
 		try {
-			File imageFileHeadRight = new File("headright.png");
+			File imageFileHeadRight = new File("Snake Game/headright.png");
 			imageHeadRight = ImageIO.read(imageFileHeadRight).getScaledInstance(10, 10, Image.SCALE_DEFAULT);
-			File imageFileHeadRightOpen = new File("headrightopen.png");
+			File imageFileHeadRightOpen = new File("Snake Game/headrightopen.png");
 			imageHeadRightOpen = ImageIO.read(imageFileHeadRightOpen).getScaledInstance(10, 10, Image.SCALE_DEFAULT);
-			File imageFileHeadLeft = new File("headleft.png");
+			File imageFileHeadLeft = new File("Snake Game/headleft.png");
 			imageHeadLeft = ImageIO.read(imageFileHeadLeft).getScaledInstance(10, 10, Image.SCALE_DEFAULT);
-			File imageFileHeadLeftOpen = new File("headleftopen.png");
+			File imageFileHeadLeftOpen = new File("Snake Game/headleftopen.png");
 			imageHeadLeftOpen = ImageIO.read(imageFileHeadLeftOpen).getScaledInstance(10, 10, Image.SCALE_DEFAULT);
-			File imageFileHeadUp = new File("headup.png");
+			File imageFileHeadUp = new File("Snake Game/headup.png");
 			imageHeadUp = ImageIO.read(imageFileHeadUp).getScaledInstance(10, 10, Image.SCALE_DEFAULT);
-			File imageFileHeadUpOpen = new File("headupopen.png");
+			File imageFileHeadUpOpen = new File("Snake Game/headupopen.png");
 			imageHeadUpOpen = ImageIO.read(imageFileHeadUpOpen).getScaledInstance(10, 10, Image.SCALE_DEFAULT);
-			File imageFileHeadDown = new File("headdown.png");
+			File imageFileHeadDown = new File("Snake Game/headdown.png");
 			imageHeadDown = ImageIO.read(imageFileHeadDown).getScaledInstance(10, 10, Image.SCALE_DEFAULT);
-			File imageFileHeadDownOpen = new File("headdownopen.png");
+			File imageFileHeadDownOpen = new File("Snake Game/headdownopen.png");
 			imageHeadDownOpen = ImageIO.read(imageFileHeadDownOpen).getScaledInstance(10, 10, Image.SCALE_DEFAULT);
-			File imageFileDot = new File("dot.png");
+			File imageFileDot = new File("Snake Game/dot.png");
 			imageBody = ImageIO.read(imageFileDot).getScaledInstance(10, 10, Image.SCALE_DEFAULT);
-			File imageFileFood = new File("apple.png");
+			File imageFileFood = new File("Snake Game/apple.png");
 			imageFood = ImageIO.read(imageFileFood).getScaledInstance(10, 10, Image.SCALE_DEFAULT);
-			File imageFileGameOver = new File("gameover.png");
+			File imageFileGameOver = new File("Snake Game/gameover.png");
 			imageGameOver = ImageIO.read(imageFileGameOver).getScaledInstance(300, 300, Image.SCALE_DEFAULT);
 			imageHead = imageHeadRight;
 		} catch (IOException e) {
